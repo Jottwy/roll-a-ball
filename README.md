@@ -1,5 +1,6 @@
 # Roll A Ball — Extended
 🎮 **[Jugar en el navegador (Itch.io)](https://jottwy.itch.io/roll-a-ball)**
+
 Versión ampliada del clásico *Roll a Ball* de Unity. Mueves una bola por un escenario cerrado recogiendo monedas a contrarreloj. Cada moneda suma puntos y algo de tiempo extra, pero hay una penalización que va comiendo puntos según pasan los segundos, así que no puedes ir con calma. El récord se guarda entre partidas.
 
 Partí del tutorial oficial y le fui añadiendo cosas: una cámara propia que no atraviesa paredes, el sistema de puntuación con penalización y récord, y la mecánica de tiempo. Es una práctica del ciclo de Desarrollo de Videojuegos (MasterD), corregida con un 10.

@@ -1,0 +1,50 @@
+# ---------------------------------------------------
+# .gitignore estándar para proyectos Unity
+# ---------------------------------------------------
+
+# Carpetas generadas por Unity (no versionar)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# Carpetas de assets que se regeneran
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Archivos de proyectos de IDEs / editores
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crash reports
+sysinfo.txt
+
+# OS
+.DS_Store
+Thumbs.db

@@ -48,7 +48,8 @@ En la práctica original toda la lógica vivía en un único script de jugador. 
 
 **`FindFirstObjectByType` para encontrar los managers.** Es lo más simple y aquí sobra de sobra. Si el proyecto creciera lo cambiaría por referencias serializadas o un sistema de eventos para que `Player` no dependa directamente de los managers, pero para esto lo dejé así a propósito.
 
-## Cosas pendientes
+## Posibles mejoras
 
-- Todavía no hay UI en pantalla: el tiempo, la puntuación y el resultado salen por `Debug.Log`. Es lo primero que quiero meter antes de subir una build jugable, junto con una pantalla de reinicio.
-- `Time.timeScale = 0` para la partida al terminar, pero no recarga la escena por sí solo.
+- Una UI en pantalla para el tiempo, la puntuación y el resultado, que ahora salen por `Debug.Log`, más una pantalla de reinicio. Es lo que falta para tener una build realmente jugable de cara al jugador.
+- Sustituir `FindFirstObjectByType` por referencias serializadas o un sistema de eventos, para desacoplar `Player` de los managers si el proyecto creciera.
+- Audio y partículas en la recogida de monedas para dar algo más de feedback.
